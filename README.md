@@ -15,4 +15,16 @@ The gridded monthly rainfall rasters can be downloaded from: https://www.longpad
 
 #### Once the seasonal total rainfall layers are produced you can then compare the current seasons total (2021-2022 wet season) against previous seasons back in time by caluclating the percentile of score, see https://docs.scipy.org/doc/scipy/reference/generated/scipy.stats.percentileofscore.html. The precentile of score layer is then coverted to a decile ranked layer. The notebook: "run_rainfall_seasonal_workflow.ipynb" details the workflow to undertake the analysis.     
 
-https://github.com/gwstaben/rainfall-raster-analysis/blob/main/png/tr_ps.png 
+#### Example of the total rainfall and percentile raster layer 
+<p align="center">
+<img src="https://github.com/gwstaben/rainfall-raster-analysis/blob/main/png/tr_ps.png">
+</p>
+
+#### Example of the decile raster layer 
+<p align="center">
+<img src="https://github.com/gwstaben/rainfall-raster-analysis/blob/main/png/DecileTotalRainfall_2021.png" width="532.5" height="624">
+</p>
+
+
+
+
