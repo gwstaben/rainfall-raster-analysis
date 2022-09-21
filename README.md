@@ -1,10 +1,12 @@
 # rainfall-raster-analysis
-## This repo contains a number of scripts and notebooks to pr-process and undertake analysis of the monthly rainfall raster layers and produce percentile and decile raster layers for a given year. 
+## This repo contains a number of scripts and notebooks to pre-process and undertake analysis of the monthly rainfall raster layers and produce percentile and decile raster layers for a given year. 
 
 #### The monthly rainfall raster grids are interpolated from BOM rainfall stations across Australia; produced by the QLD Government, further details can be found here:
 https://www.longpaddock.qld.gov.au/silo/ 
 
 https://www.longpaddock.qld.gov.au/silo/about/publications-references/
+
+The gridded monthly rainfall rasters can be downloaded from: https://www.longpaddock.qld.gov.au/silo/gridded-data/ 
 
 #### The first step is to produce the seasonal rainfall total layers for a given period (e.g. NT wetseason = October 2021 to April 2022) going back to the 1800's using the notebook: "Multi seasonal rainfall - workflow.ipynb" this notebook details the workflow which calculates the seasonal total for each year, reprojects the raster layer and clips it the NT boundary.   
 
